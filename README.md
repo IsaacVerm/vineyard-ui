@@ -42,4 +42,4 @@ Two choices:
 
 [Deploying as an app](https://medium.com/netscape/deploying-a-vue-js-2-x-app-to-heroku-in-5-steps-tutorial-a69845ace489) involves setting up an Express server, ... which frankly doesn't seem needed for just 2 files at the moment.
 
-Following [this tutorial](https://www.freecodecamp.org/news/how-to-create-a-vue-js-app-using-single-file-components-without-the-cli-7e73e5b8244f/) we can deploy html directly.
+Following [this tutorial](https://medium.com/@winnieliang/how-to-run-a-simple-html-css-javascript-application-on-heroku-4e664c541b0b) we can deploy html directly. The only thing we need to do is "trick" Heroku into thinking we deploy a php app (because it does not support hosting static websites directly).
