@@ -32,3 +32,14 @@ Not mentioned in the essentials but needed to consume the back-end service is [t
 Gotchas:
 
 * why you sometimes see [return in data](https://flaviocopes.com/vue-data-function/)
+
+## Deployment
+
+Two choices:
+
+* deploy as app
+* deploy as static html
+
+[Deploying as an app](https://medium.com/netscape/deploying-a-vue-js-2-x-app-to-heroku-in-5-steps-tutorial-a69845ace489) involves setting up an Express server, ... which frankly doesn't seem needed for just 2 files at the moment.
+
+Following [this tutorial](https://www.freecodecamp.org/news/how-to-create-a-vue-js-app-using-single-file-components-without-the-cli-7e73e5b8244f/) we can deploy html directly.
